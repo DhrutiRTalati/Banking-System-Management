@@ -1,0 +1,45 @@
+# Compiled Class files
+*.class
+bin/
+target/
+build/
+out/
+
+# Database files & Dynamic Storage
+data/*.db
+data/*.db-journal
+*.sqlite
+*.sqlite3
+
+# Runtime Logs
+logs/*.log
+
+# Runtime Statement Exports
+exports/*.txt
+exports/*.csv
+
+# Environment & Sensitive Configuration
+# Keep local credentials outside Git
+config.properties
+
+# Build artifacts
+sources.txt
+
+# IDE Specific Files
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.swp
+*.swo
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+*.db
+*.log

@@ -1,0 +1,28 @@
+# ==============================================================================
+# Apex Digital Banking System - Configuration Template
+# ==============================================================================
+# Copy this file to config.properties and adjust settings for your environment.
+
+# Database Engine Selection: 'sqlite' or 'mysql'
+# Default is 'sqlite' for zero-configuration setup (creates data/banking.db automatically)
+db.type=sqlite
+
+# SQLite Settings
+db.sqlite.path=data/banking.db
+
+# MySQL Settings (Uncomment and configure if db.type=mysql)
+# db.mysql.host=localhost
+# db.mysql.port=3306
+# db.mysql.database=banking_system
+# db.mysql.username=root
+# db.mysql.password=your_secure_password
+
+# Banking Branding Settings
+bank.name=Apex Digital Bank
+bank.currency=INR
+bank.currency.symbol=₹
+
+# Security Settings
+security.session.timeout.minutes=15
+security.default.admin.email=admin@bank.com
+security.default.admin.password=Admin@123
